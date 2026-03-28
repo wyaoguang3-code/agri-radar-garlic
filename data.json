@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-03-29T01:49:06.442027+08:00",
+  "generated_at": "2026-03-29T01:51:31.988095+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -10,18 +10,30 @@
     "status": "active",
     "latest_price": 54.78,
     "unit": "元/公斤",
-    "market": "台北一",
-    "market_price": 54.9,
+    "market": "西螺鎮",
+    "market_price": 46.6,
     "trade_date": "2026-03-27",
-    "message": "來源：農業部批發市場交易行情（大蒜-蒜頭，加權均價）",
+    "message": "來源：AMIS 官網查詢（西螺鎮＋大蒜蒜頭） + 農業部 OpenData（全市場對比）",
     "trend_7d": [
       {
+        "date": "2026-03-23",
+        "price": 65.7
+      },
+      {
+        "date": "2026-03-24",
+        "price": 53.0
+      },
+      {
+        "date": "2026-03-25",
+        "price": 47.4
+      },
+      {
         "date": "2026-03-26",
-        "price": 53.64
+        "price": 46.9
       },
       {
         "date": "2026-03-27",
-        "price": 54.78
+        "price": 46.6
       }
     ],
     "market_compare_latest": [
@@ -79,8 +91,8 @@
   },
   "market_volatility": {
     "status": "active",
-    "daily_change_pct": 2.12,
-    "volatility_7d_pct": 1.05,
+    "daily_change_pct": -0.64,
+    "volatility_7d_pct": 14.02,
     "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
@@ -275,12 +287,21 @@
   },
   "data_sources": [
     {
-      "name": "農業部農產品批發市場交易行情（公開資料）",
+      "name": "AMIS 蔬菜產品日交易行情（西螺鎮＋大蒜蒜頭）",
+      "url": "https://amis.afa.gov.tw/veg/VegProdDayTransInfo.aspx",
+      "used_for": [
+        "西螺大蒜近7日價格",
+        "單日變動",
+        "波動率"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "農業部 OpenData（大蒜-蒜頭）",
       "url": "https://data.moa.gov.tw/Service/OpenData/FromM/FarmTransData.aspx",
       "used_for": [
-        "大蒜價格",
-        "成交量",
-        "市場波動"
+        "全市場最新價格對比",
+        "交易量"
       ],
       "status": "active"
     },
