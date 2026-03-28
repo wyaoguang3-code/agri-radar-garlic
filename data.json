@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-03-29T02:04:17.043081+08:00",
+  "generated_at": "2026-03-29T02:09:33.163048+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -302,10 +302,24 @@
     ]
   },
   "pest_prevention": {
-    "status": "準備中",
-    "risk_level": "待判定",
-    "focus_items": [],
-    "message": "病蟲害公告來源串接中，將提供近期預防重點"
+    "status": "active",
+    "risk_level": "中",
+    "risk_reasons": [
+      "近7日有病蟲害/防疫相關公告"
+    ],
+    "focus_items": [
+      "巡田重點：葉片斑點、黃化、萎凋與蟲咬痕跡",
+      "環境重點：連續高濕或降雨後 24–48h 加密巡查",
+      "處置原則：先隔離疑似區塊，再依官方建議防治"
+    ],
+    "recent_alerts": [
+      {
+        "title": "荔枝椿象化學共同防治期將結束，荔枝及龍眼盛花期請停止施藥",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21539",
+        "time": "2026-03-25T00:00:00+08:00"
+      }
+    ],
+    "message": "來源：防檢署 RSS（news）關鍵字過濾（蒜/病蟲害）"
   },
   "data_sources": [
     {
@@ -338,13 +352,13 @@
       "status": "active"
     },
     {
-      "name": "農業部動植物防疫檢疫相關公告",
-      "url": "https://www.aphia.gov.tw/",
+      "name": "農業部防檢署 RSS（news）",
+      "url": "https://www.aphia.gov.tw/api.php?func=news&format=rss",
       "used_for": [
         "病蟲害預警",
         "防治建議"
       ],
-      "status": "pending"
+      "status": "active"
     }
   ]
 }

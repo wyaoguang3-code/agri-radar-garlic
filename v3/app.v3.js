@@ -97,7 +97,14 @@ async function run(){
   });
 
   const pest=d.pest_prevention||{};
-  document.getElementById('pest').innerHTML = `狀態：${pest.status || '-'} ｜ 風險：${pest.risk_level || '-'}<br>${pest.message || ''}`;
+  const focus=(pest.focus_items||[]).map(x=>`• ${x}`).join('<br>');
+  const alerts=(pest.recent_alerts||[]).slice(0,5).map(x=>`<li><a href="${x.url}" target="_blank" rel="noopener">${x.title}</a>${x.time?`（${x.time.slice(0,16).replace('T',' ')}）`:''}</li>`).join('');
+  document.getElementById('pest').innerHTML =
+    `狀態：${pest.status || '-'} ｜ 風險：${pest.risk_level || '-'}<br>`+
+    `${(pest.risk_reasons||[]).join('、')}<br>`+
+    `${pest.message || ''}<br><br>`+
+    `${focus || ''}<br><br>`+
+    `近期公告：<ol>${alerts || '<li>近7日無符合條件公告</li>'}</ol>`;
 
   const ul=document.getElementById('sources'); ul.innerHTML='';
   (d.data_sources||[]).forEach(s=>{
