@@ -22,14 +22,13 @@ async function run(){
 
   const w=d.weather||{};
   const n=w.next24h||{};
+  const series = w.next24h_series || [];
   const fromTime = series[0]?.time ? series[0].time.replace('T',' ').slice(0,16) : '-';
   const toTime = series[series.length-1]?.time ? series[series.length-1].time.replace('T',' ').slice(0,16) : '-';
   document.getElementById('weatherSummary').innerHTML =
     `預報區間：${fromTime} ~ ${toTime}<br>`+
     `風險：${n.risk_level || '-'} ${((n.risk_reasons||[]).join('、'))}<br>`+
     `溫度：${n.min_temp ?? '-'} ~ ${n.max_temp ?? '-'}°C ｜ 濕度最高：${n.max_humidity ?? '-'}% ｜ 降雨機率最高：${n.max_rain_prob ?? '-'}% ｜ 累積雨量：${n.rain_sum_mm ?? '-'} mm`;
-
-  const series = w.next24h_series || [];
   weatherChart = upsertChart(weatherChart, document.getElementById('weatherChart'), {
     type:'line',
     data:{
