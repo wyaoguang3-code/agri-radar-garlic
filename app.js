@@ -40,9 +40,9 @@ async function run(){
     data:{
       labels,
       datasets:[
-        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25, pointRadius:isMobile?2.5:2.5, borderWidth:isMobile?2.8:2.2},
-        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25, pointRadius:isMobile?2.5:2.5, borderWidth:isMobile?2.8:2.2},
-        {label:'降雨量mm', data:series.map(x=>x.rain_mm), borderColor:'#6ec6ff', backgroundColor:'rgba(110,198,255,0.15)', yAxisID:'y2', tension:0.25, pointRadius:isMobile?2.5:2.5, borderWidth:isMobile?2.8:2.2}
+        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25, pointRadius:isMobile?3:3, pointHoverRadius:isMobile?8:9, pointHitRadius:isMobile?24:26, borderWidth:isMobile?2.8:2.2},
+        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25, pointRadius:isMobile?3:3, pointHoverRadius:isMobile?8:9, pointHitRadius:isMobile?24:26, borderWidth:isMobile?2.8:2.2},
+        {label:'降雨量mm', data:series.map(x=>x.rain_mm), borderColor:'#6ec6ff', backgroundColor:'rgba(110,198,255,0.15)', yAxisID:'y2', tension:0.25, pointRadius:isMobile?3:3, pointHoverRadius:isMobile?8:9, pointHitRadius:isMobile?24:26, borderWidth:isMobile?2.8:2.2}
       ]
     },
     options:{
