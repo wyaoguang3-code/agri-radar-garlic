@@ -30,13 +30,15 @@ async function run(){
     `風險：${n.risk_level || '-'} ${((n.risk_reasons||[]).join('、'))}<br>`+
     `溫度：${n.min_temp ?? '-'} ~ ${n.max_temp ?? '-'}°C ｜ 濕度最高：${n.max_humidity ?? '-'}% ｜ 降雨機率最高：${n.max_rain_prob ?? '-'}% ｜ 累積雨量：${n.rain_sum_mm ?? '-'} mm`;
   const isMobile = window.matchMedia('(max-width: 640px)').matches;
+  const labels = series.map(x=> {
+    const t = (x.time||'').replace('T',' ');
+    return isMobile ? t.slice(11,16) : `${t.slice(5,10)} ${t.slice(11,16)}`;
+  });
+
   weatherChart = upsertChart(weatherChart, document.getElementById('weatherChart'), {
     type:'line',
     data:{
-      labels: series.map(x=> {
-        const t = (x.time||'').replace('T',' ');
-        return `${t.slice(5,10)} ${t.slice(11,16)}`;
-      }),
+      labels,
       datasets:[
         {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25, pointRadius:isMobile?1.5:2.5},
         {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25, pointRadius:isMobile?1.5:2.5},
@@ -48,7 +50,7 @@ async function run(){
       plugins:{legend:{labels:{color:'#bde7d8', boxWidth:isMobile?10:14, font:{size:isMobile?10:12}}}},
       scales:{
         x:{
-          ticks:{color:'#bde7d8', autoSkip:true, maxTicksLimit:isMobile?6:12, maxRotation:isMobile?0:35, minRotation:0, font:{size:isMobile?10:11}},
+          ticks:{color:'#bde7d8', autoSkip:true, maxTicksLimit:isMobile?5:12, maxRotation:0, minRotation:0, font:{size:isMobile?10:11}},
           grid:{display:!isMobile}
         },
         y:{position:'left',ticks:{color:'#bde7d8', font:{size:isMobile?10:11}}},
