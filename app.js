@@ -15,10 +15,19 @@ async function run(){
   document.getElementById('freq').textContent = `${d.scope?.update_frequency_minutes || '-'} 分鐘`;
 
   const p=d.price||{};
-  document.getElementById('price').innerHTML = `狀態：${p.status || '-'}<br>${p.message || ''}`;
+  document.getElementById('price').innerHTML =
+    `狀態：${p.status || '-'}<br>`+
+    `交易日：${p.trade_date || '-'}<br>`+
+    `全市場加權均價：${p.latest_price ?? '-'} ${p.unit || ''}<br>`+
+    `重點市場：${p.market || '-'}（${p.market_price ?? '-'} ${p.unit || ''}）<br>`+
+    `${p.message || ''}`;
 
   const v=d.market_volatility||{};
-  document.getElementById('volatility').innerHTML = `狀態：${v.status || '-'}<br>${v.message || ''}`;
+  document.getElementById('volatility').innerHTML =
+    `狀態：${v.status || '-'}<br>`+
+    `單日變動：${v.daily_change_pct ?? '-'}%<br>`+
+    `近7日波動率：${v.volatility_7d_pct ?? '-'}%<br>`+
+    `${v.message || ''}`;
 
   const w=d.weather||{};
   const n=w.next24h||{};

@@ -1,23 +1,25 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-03-29T00:48:07.656836+08:00",
+  "generated_at": "2026-03-29T00:59:41.705774+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
     "update_frequency_minutes": 15
   },
   "price": {
-    "status": "準備中",
-    "latest_price": null,
+    "status": "active",
+    "latest_price": 54.78,
     "unit": "元/公斤",
-    "market": null,
-    "message": "價格串接第一階段尚在接入中（將接農產品批發市場公開行情）"
+    "market": "台北一",
+    "market_price": 54.9,
+    "trade_date": "2026-03-27",
+    "message": "來源：農業部批發市場交易行情（大蒜-蒜頭，加權均價）"
   },
   "market_volatility": {
-    "status": "準備中",
-    "daily_change_pct": null,
-    "volatility_7d_pct": null,
-    "message": "波動指標將於價格串接完成後自動計算"
+    "status": "active",
+    "daily_change_pct": 2.12,
+    "volatility_7d_pct": 1.05,
+    "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
     "ok": true,
@@ -212,13 +214,13 @@
   "data_sources": [
     {
       "name": "農業部農產品批發市場交易行情（公開資料）",
-      "url": "https://amis.afa.gov.tw/",
+      "url": "https://data.moa.gov.tw/Service/OpenData/FromM/FarmTransData.aspx",
       "used_for": [
         "大蒜價格",
         "成交量",
         "市場波動"
       ],
-      "status": "pending"
+      "status": "active"
     },
     {
       "name": "Open-Meteo Forecast API",
