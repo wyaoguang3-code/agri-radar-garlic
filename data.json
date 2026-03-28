@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-03-29T02:50:42.884969+08:00",
+  "generated_at": "2026-03-29T02:53:57.699453+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -337,7 +337,7 @@
   },
   "policy_updates": {
     "status": "active",
-    "message": "政策/產銷公告與病蟲害預警分欄顯示，避免語意混淆",
+    "message": "已固定爬取 MOA News 與 PBI Industry 作為政策/產銷來源",
     "items": [
       {
         "title": "雲林大蒜病蟲害與產銷措施說明（PBI）",
@@ -350,9 +350,23 @@
         "url": "https://m.moa.gov.tw/News/Detail/220918",
         "source": "農業部行動版新聞",
         "time": null
+      },
+      {
+        "title": "MOA 政策新聞列表",
+        "url": "https://m.moa.gov.tw/News",
+        "source": "農業部行動版新聞",
+        "time": null
+      },
+      {
+        "title": "PBI 產業資訊列表",
+        "url": "https://pbi.afa.gov.tw/AFABI_Open/Default/Industry",
+        "source": "農糧產銷資訊整合平臺",
+        "time": null
       }
     ],
     "source_urls": [
+      "https://m.moa.gov.tw/News",
+      "https://pbi.afa.gov.tw/AFABI_Open/Default/Industry",
       "https://pbi.afa.gov.tw/AFABI_Open/Default/IndustryPage/560",
       "https://m.moa.gov.tw/News/Detail/220918",
       "https://www.aphia.gov.tw/api.php?func=news&format=rss"
@@ -398,19 +412,20 @@
       "status": "active"
     },
     {
-      "name": "農糧產銷資訊整合平臺（大蒜）",
-      "url": "https://pbi.afa.gov.tw/AFABI_Open/Default/IndustryPage/560",
+      "name": "農糧產銷資訊整合平臺 Industry（固定來源）",
+      "url": "https://pbi.afa.gov.tw/AFABI_Open/Default/Industry",
       "used_for": [
         "政策/產銷公告（大蒜）",
-        "病蟲害關鍵詞補充"
+        "明細頁擴展爬取（IndustryPage/*）"
       ],
       "status": "active"
     },
     {
-      "name": "農業部行動版新聞（大蒜）",
-      "url": "https://m.moa.gov.tw/News/Detail/220918",
+      "name": "農業部行動版政策新聞 News（固定來源）",
+      "url": "https://m.moa.gov.tw/News",
       "used_for": [
-        "政策/穩價措施追蹤"
+        "政策/穩價措施追蹤",
+        "明細頁擴展爬取（News/Detail/*）"
       ],
       "status": "active"
     }
