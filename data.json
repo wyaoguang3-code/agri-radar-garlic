@@ -1,0 +1,243 @@
+{
+  "site_name": "農業戰情儀表板（大蒜）",
+  "generated_at": "2026-03-28T23:31:59.664410+08:00",
+  "scope": {
+    "region": "雲林",
+    "crop": "大蒜",
+    "update_frequency_minutes": 15
+  },
+  "price": {
+    "status": "準備中",
+    "latest_price": null,
+    "unit": "元/公斤",
+    "market": null,
+    "message": "價格串接第一階段尚在接入中（將接農產品批發市場公開行情）"
+  },
+  "market_volatility": {
+    "status": "準備中",
+    "daily_change_pct": null,
+    "volatility_7d_pct": null,
+    "message": "波動指標將於價格串接完成後自動計算"
+  },
+  "weather": {
+    "ok": true,
+    "next24h": {
+      "max_temp": 25.3,
+      "min_temp": 20.8,
+      "max_humidity": 93,
+      "max_rain_prob": 23,
+      "rain_sum_mm": 0.0,
+      "risk_level": "中",
+      "risk_reasons": [
+        "高濕/高降雨機率"
+      ]
+    },
+    "next24h_series": [
+      {
+        "time": "2026-03-28T00:00",
+        "temp": 21.2,
+        "humidity": 89,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T01:00",
+        "temp": 21.0,
+        "humidity": 91,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T02:00",
+        "temp": 20.9,
+        "humidity": 92,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T03:00",
+        "temp": 20.8,
+        "humidity": 93,
+        "rain_prob": 3,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T04:00",
+        "temp": 21.1,
+        "humidity": 92,
+        "rain_prob": 3,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T05:00",
+        "temp": 21.0,
+        "humidity": 92,
+        "rain_prob": 10,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T06:00",
+        "temp": 21.1,
+        "humidity": 90,
+        "rain_prob": 10,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T07:00",
+        "temp": 21.6,
+        "humidity": 88,
+        "rain_prob": 13,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T08:00",
+        "temp": 22.8,
+        "humidity": 82,
+        "rain_prob": 10,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T09:00",
+        "temp": 23.7,
+        "humidity": 77,
+        "rain_prob": 23,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T10:00",
+        "temp": 24.6,
+        "humidity": 74,
+        "rain_prob": 20,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T11:00",
+        "temp": 25.3,
+        "humidity": 71,
+        "rain_prob": 15,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T12:00",
+        "temp": 25.3,
+        "humidity": 71,
+        "rain_prob": 5,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T13:00",
+        "temp": 25.0,
+        "humidity": 70,
+        "rain_prob": 5,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T14:00",
+        "temp": 24.5,
+        "humidity": 71,
+        "rain_prob": 8,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T15:00",
+        "temp": 23.6,
+        "humidity": 75,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T16:00",
+        "temp": 23.1,
+        "humidity": 77,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T17:00",
+        "temp": 22.6,
+        "humidity": 79,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T18:00",
+        "temp": 22.0,
+        "humidity": 83,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T19:00",
+        "temp": 21.6,
+        "humidity": 85,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T20:00",
+        "temp": 21.5,
+        "humidity": 85,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T21:00",
+        "temp": 21.4,
+        "humidity": 86,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T22:00",
+        "temp": 21.3,
+        "humidity": 87,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-03-28T23:00",
+        "temp": 21.1,
+        "humidity": 88,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      }
+    ]
+  },
+  "pest_prevention": {
+    "status": "準備中",
+    "risk_level": "待判定",
+    "focus_items": [],
+    "message": "病蟲害公告來源串接中，將提供近期預防重點"
+  },
+  "data_sources": [
+    {
+      "name": "農業部農產品批發市場交易行情（公開資料）",
+      "url": "https://amis.afa.gov.tw/",
+      "used_for": [
+        "大蒜價格",
+        "成交量",
+        "市場波動"
+      ],
+      "status": "pending"
+    },
+    {
+      "name": "Open-Meteo Forecast API",
+      "url": "https://open-meteo.com/",
+      "used_for": [
+        "天氣預報",
+        "濕度",
+        "降雨風險"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "農業部動植物防疫檢疫相關公告",
+      "url": "https://www.aphia.gov.tw/",
+      "used_for": [
+        "病蟲害預警",
+        "防治建議"
+      ],
+      "status": "pending"
+    }
+  ]
+}
