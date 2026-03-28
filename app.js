@@ -29,23 +29,31 @@ async function run(){
     `預報區間：${fromTime} ~ ${toTime}<br>`+
     `風險：${n.risk_level || '-'} ${((n.risk_reasons||[]).join('、'))}<br>`+
     `溫度：${n.min_temp ?? '-'} ~ ${n.max_temp ?? '-'}°C ｜ 濕度最高：${n.max_humidity ?? '-'}% ｜ 降雨機率最高：${n.max_rain_prob ?? '-'}% ｜ 累積雨量：${n.rain_sum_mm ?? '-'} mm`;
+  const isMobile = window.matchMedia('(max-width: 640px)').matches;
   weatherChart = upsertChart(weatherChart, document.getElementById('weatherChart'), {
     type:'line',
     data:{
-      labels: series.map(x=> (x.time||'').slice(5,16)),
+      labels: series.map(x=> {
+        const t = (x.time||'').replace('T',' ');
+        return `${t.slice(5,10)} ${t.slice(11,16)}`;
+      }),
       datasets:[
-        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25},
-        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25},
-        {label:'降雨量mm', data:series.map(x=>x.rain_mm), borderColor:'#6ec6ff', backgroundColor:'rgba(110,198,255,0.15)', yAxisID:'y2', tension:0.25}
+        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25, pointRadius:isMobile?1.5:2.5},
+        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25, pointRadius:isMobile?1.5:2.5},
+        {label:'降雨量mm', data:series.map(x=>x.rain_mm), borderColor:'#6ec6ff', backgroundColor:'rgba(110,198,255,0.15)', yAxisID:'y2', tension:0.25, pointRadius:isMobile?1.5:2.5}
       ]
     },
     options:{
-      plugins:{legend:{labels:{color:'#bde7d8'}}},
+      maintainAspectRatio:false,
+      plugins:{legend:{labels:{color:'#bde7d8', boxWidth:isMobile?10:14, font:{size:isMobile?10:12}}}},
       scales:{
-        x:{ticks:{color:'#bde7d8'}},
-        y:{position:'left',ticks:{color:'#bde7d8'}},
-        y1:{position:'right',grid:{drawOnChartArea:false},ticks:{color:'#bde7d8'},suggestedMin:0,suggestedMax:100},
-        y2:{position:'right',grid:{drawOnChartArea:false},ticks:{color:'#9bd8ff'}}
+        x:{
+          ticks:{color:'#bde7d8', autoSkip:true, maxTicksLimit:isMobile?6:12, maxRotation:isMobile?0:35, minRotation:0, font:{size:isMobile?10:11}},
+          grid:{display:!isMobile}
+        },
+        y:{position:'left',ticks:{color:'#bde7d8', font:{size:isMobile?10:11}}},
+        y1:{position:'right',grid:{drawOnChartArea:false},ticks:{color:'#bde7d8', font:{size:isMobile?10:11}},suggestedMin:0,suggestedMax:100},
+        y2:{position:'right',grid:{drawOnChartArea:false},ticks:{color:'#9bd8ff', font:{size:isMobile?10:11}}}
       }
     }
   });

@@ -15,4 +15,5 @@ a{color:#90e7c9}
 @media (max-width: 640px){
   .two-col{grid-template-columns:1fr}
   .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #weatherChart{height:220px !important}
 }
