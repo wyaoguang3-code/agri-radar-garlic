@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-03-29T01:51:31.988095+08:00",
+  "generated_at": "2026-03-29T02:02:34.477139+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -38,54 +38,76 @@
     ],
     "market_compare_latest": [
       {
-        "market": "台北一",
-        "price": 54.9,
-        "volume": 6299.0
-      },
-      {
-        "market": "台北二",
-        "price": 50.4,
-        "volume": 3693.0
-      },
-      {
+        "market_no": "241",
         "market": "三重區",
         "price": 50.8,
         "volume": 2243.0
       },
       {
+        "market_no": "220",
         "market": "板橋區",
         "price": 47.0,
-        "volume": 1991.0
+        "volume": 36.0
       },
       {
-        "market": "桃農",
-        "price": 52.4,
-        "volume": 1909.0
-      },
-      {
+        "market_no": "800",
         "market": "高雄市",
-        "price": 75.06,
-        "volume": 1794.0
+        "price": 75.1,
+        "volume": 28.0
       },
       {
-        "market": "豐原區",
-        "price": 64.5,
-        "volume": 688.0
+        "market_no": "950",
+        "market": "花蓮市",
+        "price": 70.0,
+        "volume": 20.0
       },
       {
-        "market": "屏東市",
-        "price": 49.8,
-        "volume": 327.0
-      },
-      {
+        "market_no": "514",
         "market": "溪湖鎮",
         "price": 89.3,
-        "volume": 91.0
+        "volume": 12.0
       },
       {
+        "market_no": "900",
+        "market": "屏東市",
+        "price": 49.8,
+        "volume": 12.0
+      },
+      {
+        "market_no": "104",
+        "market": "台北二",
+        "price": 50.4,
+        "volume": 11.0
+      },
+      {
+        "market_no": "400",
+        "market": "台中市",
+        "price": 49.6,
+        "volume": 10.0
+      },
+      {
+        "market_no": "830",
         "market": "鳳山區",
         "price": 36.5,
         "volume": 10.0
+      },
+      {
+        "market_no": "338",
+        "market": "桃農",
+        "price": 52.4,
+        "volume": 9.0
+      },
+      {
+        "market_no": "109",
+        "market": "台北一",
+        "price": 54.8,
+        "volume": 6.0
+      },
+      {
+        "market_no": "648",
+        "market": "西螺鎮",
+        "price": 46.6,
+        "volume": 1.0
       }
     ]
   },
