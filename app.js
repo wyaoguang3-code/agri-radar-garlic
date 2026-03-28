@@ -1,4 +1,4 @@
-let weatherChart;
+let weatherChart, priceTrendChart, marketCompareChart;
 
 function upsertChart(instance, ctx, config){
   if(instance){ instance.data=config.data; instance.options=config.options; instance.update(); return instance; }
@@ -28,6 +28,27 @@ async function run(){
     `單日變動：${v.daily_change_pct ?? '-'}%<br>`+
     `近7日波動率：${v.volatility_7d_pct ?? '-'}%<br>`+
     `${v.message || ''}`;
+
+  // 價格圖表
+  const trend = p.trend_7d || [];
+  priceTrendChart = upsertChart(priceTrendChart, document.getElementById('priceTrendChart'), {
+    type:'line',
+    data:{
+      labels: trend.map(x=> (x.date||'').slice(5)),
+      datasets:[{label:'均價(元/公斤)', data:trend.map(x=>x.price), borderColor:'#9cf7d5', backgroundColor:'rgba(156,247,213,0.15)', tension:0.25, borderWidth:2.2, pointRadius:3}]
+    },
+    options:{maintainAspectRatio:false, plugins:{legend:{labels:{color:'#bde7d8'}}}, scales:{x:{ticks:{color:'#bde7d8'}}, y:{ticks:{color:'#bde7d8'}}}}
+  });
+
+  const mkt = p.market_compare_latest || [];
+  marketCompareChart = upsertChart(marketCompareChart, document.getElementById('marketCompareChart'), {
+    type:'bar',
+    data:{
+      labels: mkt.map(x=>x.market),
+      datasets:[{label:'均價(元/公斤)', data:mkt.map(x=>x.price), backgroundColor:'#7ec8ff'}]
+    },
+    options:{maintainAspectRatio:false, plugins:{legend:{labels:{color:'#bde7d8'}}}, scales:{x:{ticks:{color:'#bde7d8', autoSkip:true, maxTicksLimit:8}}, y:{ticks:{color:'#bde7d8'}}}}
+  });
 
   const w=d.weather||{};
   const n=w.next24h||{};
