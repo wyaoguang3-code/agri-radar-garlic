@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a1b16;color:#e7fff7;margin:0;padding:16px;max-width:1100px;margin-inline:auto}
+header{display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+h1{margin:0;font-size:clamp(20px,4.8vw,32px)}
+#updated{margin:0;color:#bde7d8;font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:12px}
+.card,.panel{background:#10261f;border:1px solid #2f5f4f;border-radius:12px;padding:12px}
+.card h3{margin:0 0 6px 0;font-size:14px;color:#bde7d8}
+.num{font-size:24px;font-weight:700}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.panel h2{margin:0 0 8px 0;font-size:18px}
+ul{margin:0;padding-left:18px}
+li{margin:8px 0;word-break:break-word}
+a{color:#90e7c9}
+#weatherChart{height:230px !important}
+@media (max-width: 640px){
+  .two-col{grid-template-columns:1fr}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #weatherChart{height:350px !important}
+}
