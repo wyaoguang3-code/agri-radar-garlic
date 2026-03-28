@@ -6,7 +6,7 @@ function upsertChart(instance, ctx, config){
 }
 
 async function run(){
-  const res = await fetch('./data.json?t='+Date.now());
+  const res = await fetch('../data.json?t='+Date.now());
   const d = await res.json();
 
   document.getElementById('updated').textContent = '更新時間：'+new Date(d.generated_at).toLocaleString('zh-TW',{hour12:false});
