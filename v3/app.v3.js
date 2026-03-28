@@ -110,6 +110,13 @@ async function run(){
     `${focus || ''}<br><br>`+
     `近期公告：<ol>${alerts || '<li>近7日無符合條件公告</li>'}</ol>`;
 
+  const policy=d.policy_updates||{};
+  const policyItems=(policy.items||[]).slice(0,6).map(x=>`<li><a href="${x.url}" target="_blank" rel="noopener">${x.title}</a>${x.time?`（${String(x.time).slice(0,16).replace('T',' ')}）`:''}｜${x.source||'-'}</li>`).join('');
+  document.getElementById('policy').innerHTML =
+    `狀態：${policy.status || '-'}<br>`+
+    `${policy.message || ''}<br><br>`+
+    `近期重點：<ol>${policyItems || '<li>暫無資料</li>'}</ol>`;
+
   const ul=document.getElementById('sources'); ul.innerHTML='';
   (d.data_sources||[]).forEach(s=>{
     const li=document.createElement('li');

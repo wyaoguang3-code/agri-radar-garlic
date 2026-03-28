@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-03-29T02:34:38.100599+08:00",
+  "generated_at": "2026-03-29T02:43:44.964918+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -303,25 +303,60 @@
   },
   "pest_prevention": {
     "status": "active",
-    "risk_level": "中",
-    "risk_reasons": [
-      "近7日有病蟲害/防疫相關公告"
-    ],
+    "risk_level": "低",
+    "risk_reasons": [],
     "source_name": "防檢署 RSS（news）",
     "source_url": "https://www.aphia.gov.tw/api.php?func=news&format=rss",
-    "focus_items": [
-      "巡田重點：葉片斑點、黃化、萎凋與蟲咬痕跡",
-      "環境重點：連續高濕或降雨後 24–48h 加密巡查",
-      "處置原則：先隔離疑似區塊，再依官方建議防治"
-    ],
-    "recent_alerts": [
+    "keywords": {
+      "garlic": [
+        "蒜",
+        "大蒜",
+        "蒜頭",
+        "蒜苗"
+      ],
+      "pest": [
+        "病",
+        "蟲",
+        "疫",
+        "防治",
+        "真菌",
+        "細菌",
+        "病毒",
+        "害蟲",
+        "病害",
+        "葉蟎",
+        "紅蜘蛛",
+        "薊馬",
+        "黑腐病"
+      ],
+      "rule": "must_match_garlic_and_pest"
+    },
+    "focus_items": [],
+    "recent_alerts": [],
+    "message": "來源：防檢署 RSS（news）關鍵字過濾（蒜/病蟲害）"
+  },
+  "policy_updates": {
+    "status": "active",
+    "message": "政策/產銷公告與病蟲害預警分欄顯示，避免語意混淆",
+    "items": [
       {
-        "title": "荔枝椿象化學共同防治期將結束，荔枝及龍眼盛花期請停止施藥",
-        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21539",
-        "time": "2026-03-25T00:00:00+08:00"
+        "title": "雲林大蒜病蟲害與產銷措施說明（PBI）",
+        "url": "https://pbi.afa.gov.tw/AFABI_Open/Default/IndustryPage/560",
+        "source": "農糧產銷資訊整合平臺",
+        "time": null
+      },
+      {
+        "title": "115年大蒜濕蒜收購及乾蒜貯存穩價措施（MOA）",
+        "url": "https://m.moa.gov.tw/News/Detail/220918",
+        "source": "農業部行動版新聞",
+        "time": null
       }
     ],
-    "message": "來源：防檢署 RSS（news）關鍵字過濾（蒜/病蟲害）"
+    "source_urls": [
+      "https://pbi.afa.gov.tw/AFABI_Open/Default/IndustryPage/560",
+      "https://m.moa.gov.tw/News/Detail/220918",
+      "https://www.aphia.gov.tw/api.php?func=news&format=rss"
+    ]
   },
   "data_sources": [
     {
@@ -338,8 +373,7 @@
       "name": "農業部 OpenData（大蒜-蒜頭）",
       "url": "https://data.moa.gov.tw/Service/OpenData/FromM/FarmTransData.aspx",
       "used_for": [
-        "全市場最新價格對比",
-        "交易量"
+        "市場對比備援資料源（AMIS 失敗時）"
       ],
       "status": "active"
     },
@@ -358,7 +392,25 @@
       "url": "https://www.aphia.gov.tw/api.php?func=news&format=rss",
       "used_for": [
         "病蟲害預警",
-        "防治建議"
+        "防治建議",
+        "政策/產銷補充公告"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "農糧產銷資訊整合平臺（大蒜）",
+      "url": "https://pbi.afa.gov.tw/AFABI_Open/Default/IndustryPage/560",
+      "used_for": [
+        "政策/產銷公告（大蒜）",
+        "病蟲害關鍵詞補充"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "農業部行動版新聞（大蒜）",
+      "url": "https://m.moa.gov.tw/News/Detail/220918",
+      "used_for": [
+        "政策/穩價措施追蹤"
       ],
       "status": "active"
     }
