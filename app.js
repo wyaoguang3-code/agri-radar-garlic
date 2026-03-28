@@ -32,8 +32,9 @@ async function run(){
     data:{
       labels: series.map(x=> (x.time||'').slice(11,16)),
       datasets:[
-        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', yAxisID:'y'},
-        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', yAxisID:'y1'}
+        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25},
+        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25},
+        {label:'降雨量mm', data:series.map(x=>x.rain_mm), borderColor:'#6ec6ff', backgroundColor:'rgba(110,198,255,0.15)', yAxisID:'y2', tension:0.25}
       ]
     },
     options:{
@@ -41,7 +42,8 @@ async function run(){
       scales:{
         x:{ticks:{color:'#bde7d8'}},
         y:{position:'left',ticks:{color:'#bde7d8'}},
-        y1:{position:'right',grid:{drawOnChartArea:false},ticks:{color:'#bde7d8'}}
+        y1:{position:'right',grid:{drawOnChartArea:false},ticks:{color:'#bde7d8'},suggestedMin:0,suggestedMax:100},
+        y2:{position:'right',grid:{drawOnChartArea:false},ticks:{color:'#9bd8ff'}}
       }
     }
   });
