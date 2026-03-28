@@ -12,9 +12,9 @@ h1{margin:0;font-size:clamp(20px,4.8vw,32px)}
 ul{margin:0;padding-left:18px}
 li{margin:8px 0;word-break:break-word}
 a{color:#90e7c9}
-#weatherChart{height:230px !important}
+#weatherChart{height:260px !important}
 @media (max-width: 640px){
   .two-col{grid-template-columns:1fr}
   .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
-  #weatherChart{height:290px !important}
+  #weatherChart{height:280px !important}
 }
