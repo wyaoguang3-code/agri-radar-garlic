@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>農業戰情儀表板（大蒜）</title>
+  <link rel="stylesheet" href="./style.v3.css" />
+</head>
+<body>
+  <header>
+    <h1>農業戰情儀表板（大蒜）</h1>
+    <p id="updated">更新中...</p>
+  </header>
+
+  <section class="cards">
+    <div class="card"><h3>區域</h3><div id="region" class="num">-</div></div>
+    <div class="card"><h3>作物</h3><div id="crop" class="num">-</div></div>
+    <div class="card"><h3>更新頻率</h3><div id="freq" class="num">-</div></div>
+  </section>
+
+  <section class="panel two-col">
+    <div>
+      <h2>農產即時價格</h2>
+      <div id="price"></div>
+    </div>
+    <div>
+      <h2>市場波動</h2>
+      <div id="volatility"></div>
+    </div>
+  </section>
+
+  <section class="panel two-col">
+    <div>
+      <h2>近7交易日價格走勢</h2>
+      <canvas id="priceTrendChart" height="180"></canvas>
+    </div>
+    <div>
+      <h2>最新交易日市場價格對比</h2>
+      <canvas id="marketCompareChart" height="180"></canvas>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>天氣消息（雲林，未來24h）</h2>
+    <div id="weatherSummary"></div>
+    <canvas id="weatherChart" height="120"></canvas>
+  </section>
+
+  <section class="panel">
+    <h2>病蟲害預防</h2>
+    <div id="pest"></div>
+  </section>
+
+  <section class="panel">
+    <h2>資料來源</h2>
+    <ul id="sources"></ul>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./app.v3.js"></script>
+</body>
+</html>
