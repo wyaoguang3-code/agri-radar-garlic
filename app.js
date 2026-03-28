@@ -48,7 +48,12 @@ async function run(){
     options:{
       maintainAspectRatio:false,
       devicePixelRatio: isMobile ? 2 : 1,
-      plugins:{legend:{position:isMobile?'bottom':'top', labels:{color:'#bde7d8', boxWidth:14, font:{size:isMobile?12:12}}}},
+      interaction:{mode:'nearest', intersect:false, axis:'x'},
+      plugins:{
+        tooltip:{enabled:true, mode:'nearest', intersect:false},
+        legend:{position:isMobile?'bottom':'top', labels:{color:'#bde7d8', boxWidth:14, font:{size:isMobile?12:12}}}
+      },
+      hover:{mode:'nearest', intersect:false},
       scales:{
         x:{
           ticks:{color:'#bde7d8', autoSkip:true, maxTicksLimit:isMobile?5:12, maxRotation:0, minRotation:0, font:{size:isMobile?10:11}},
