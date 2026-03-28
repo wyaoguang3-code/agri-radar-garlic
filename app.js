@@ -40,9 +40,9 @@ async function run(){
     data:{
       labels,
       datasets:[
-        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25, pointRadius:isMobile?3:3, pointHoverRadius:isMobile?8:9, pointHitRadius:isMobile?24:26, borderWidth:isMobile?2.8:2.2},
-        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25, pointRadius:isMobile?3:3, pointHoverRadius:isMobile?8:9, pointHitRadius:isMobile?24:26, borderWidth:isMobile?2.8:2.2},
-        {label:'降雨量mm', data:series.map(x=>x.rain_mm), borderColor:'#6ec6ff', backgroundColor:'rgba(110,198,255,0.15)', yAxisID:'y2', tension:0.25, pointRadius:isMobile?3:3, pointHoverRadius:isMobile?8:9, pointHitRadius:isMobile?24:26, borderWidth:isMobile?2.8:2.2}
+        {label:'溫度°C', data:series.map(x=>x.temp), borderColor:'#7ee5bf', backgroundColor:'rgba(126,229,191,0.15)', yAxisID:'y', tension:0.25, pointRadius:isMobile?3:2.5, pointHoverRadius:isMobile?8:6, pointHitRadius:isMobile?24:8, borderWidth:isMobile?2.8:2.2},
+        {label:'降雨機率%', data:series.map(x=>x.rain_prob), borderColor:'#ffc857', backgroundColor:'rgba(255,200,87,0.15)', yAxisID:'y1', tension:0.25, pointRadius:isMobile?3:2.5, pointHoverRadius:isMobile?8:6, pointHitRadius:isMobile?24:8, borderWidth:isMobile?2.8:2.2},
+        {label:'降雨量mm', data:series.map(x=>x.rain_mm), borderColor:'#6ec6ff', backgroundColor:'rgba(110,198,255,0.15)', yAxisID:'y2', tension:0.25, pointRadius:isMobile?3:2.5, pointHoverRadius:isMobile?8:6, pointHitRadius:isMobile?24:8, borderWidth:isMobile?2.8:2.2}
       ]
     },
     options:{
@@ -53,7 +53,7 @@ async function run(){
         tooltip:{enabled:true, mode:'nearest', intersect:false},
         legend:{position:isMobile?'bottom':'top', labels:{color:'#bde7d8', boxWidth:14, font:{size:isMobile?12:12}}}
       },
-      hover:{mode:'nearest', intersect:false},
+      hover:{mode:isMobile?'nearest':'point', intersect:isMobile?false:true},
       scales:{
         x:{
           ticks:{color:'#bde7d8', autoSkip:true, maxTicksLimit:isMobile?5:12, maxRotation:0, minRotation:0, font:{size:isMobile?10:11}},
