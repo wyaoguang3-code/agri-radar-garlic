@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-03-31T18:10:11.456380+08:00",
+  "generated_at": "2026-03-31T18:25:22.370406+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -185,14 +185,14 @@
       },
       {
         "time": "2026-03-31T14:00",
-        "temp": 28.0,
-        "humidity": 63,
+        "temp": 28.1,
+        "humidity": 64,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-03-31T15:00",
-        "temp": 27.5,
+        "temp": 27.4,
         "humidity": 67,
         "rain_prob": 0,
         "rain_mm": 0.0
@@ -206,50 +206,50 @@
       },
       {
         "time": "2026-03-31T17:00",
-        "temp": 26.1,
-        "humidity": 71,
+        "temp": 26.2,
+        "humidity": 72,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-03-31T18:00",
-        "temp": 25.4,
-        "humidity": 75,
+        "temp": 25.3,
+        "humidity": 78,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-03-31T19:00",
         "temp": 25.0,
-        "humidity": 79,
+        "humidity": 80,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-03-31T20:00",
-        "temp": 24.8,
-        "humidity": 81,
-        "rain_prob": 0,
-        "rain_mm": 0.0
-      },
-      {
-        "time": "2026-03-31T21:00",
         "temp": 24.7,
         "humidity": 82,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
+        "time": "2026-03-31T21:00",
+        "temp": 24.6,
+        "humidity": 84,
+        "rain_prob": 0,
+        "rain_mm": 0.0
+      },
+      {
         "time": "2026-03-31T22:00",
-        "temp": 24.5,
-        "humidity": 83,
+        "temp": 24.6,
+        "humidity": 84,
         "rain_prob": 3,
         "rain_mm": 0.0
       },
       {
         "time": "2026-03-31T23:00",
-        "temp": 24.3,
-        "humidity": 85,
+        "temp": 24.6,
+        "humidity": 84,
         "rain_prob": 0,
         "rain_mm": 0.0
       }
