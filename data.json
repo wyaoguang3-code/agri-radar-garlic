@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-03T00:20:37.884102+08:00",
+  "generated_at": "2026-04-03T00:36:04.433418+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -82,8 +82,8 @@
   "weather": {
     "ok": true,
     "next24h": {
-      "max_temp": 28.7,
-      "min_temp": 22.1,
+      "max_temp": 28.8,
+      "min_temp": 22.3,
       "max_humidity": 90,
       "max_rain_prob": 23,
       "rain_sum_mm": 0.0,
@@ -95,35 +95,35 @@
     "next24h_series": [
       {
         "time": "2026-04-03T00:00",
-        "temp": 23.2,
+        "temp": 22.9,
         "humidity": 85,
         "rain_prob": 10,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T01:00",
-        "temp": 23.3,
+        "temp": 22.8,
         "humidity": 85,
         "rain_prob": 8,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T02:00",
-        "temp": 23.1,
+        "temp": 23.0,
         "humidity": 84,
         "rain_prob": 13,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T03:00",
-        "temp": 23.1,
+        "temp": 22.8,
         "humidity": 86,
         "rain_prob": 15,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T04:00",
-        "temp": 22.8,
+        "temp": 22.5,
         "humidity": 88,
         "rain_prob": 23,
         "rain_mm": 0.0
@@ -137,77 +137,77 @@
       },
       {
         "time": "2026-04-03T06:00",
-        "temp": 22.1,
+        "temp": 22.3,
         "humidity": 90,
         "rain_prob": 10,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T07:00",
-        "temp": 22.2,
+        "temp": 22.4,
         "humidity": 90,
         "rain_prob": 5,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T08:00",
-        "temp": 23.5,
+        "temp": 23.3,
         "humidity": 86,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T09:00",
-        "temp": 25.3,
+        "temp": 24.6,
         "humidity": 78,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T10:00",
-        "temp": 26.6,
+        "temp": 26.1,
         "humidity": 73,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T11:00",
-        "temp": 27.7,
+        "temp": 27.3,
         "humidity": 68,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T12:00",
-        "temp": 28.5,
+        "temp": 28.6,
         "humidity": 62,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T13:00",
-        "temp": 28.5,
+        "temp": 28.8,
         "humidity": 63,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T14:00",
-        "temp": 28.5,
+        "temp": 28.1,
         "humidity": 66,
         "rain_prob": 3,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T15:00",
-        "temp": 28.7,
+        "temp": 27.8,
         "humidity": 70,
         "rain_prob": 5,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T16:00",
-        "temp": 28.3,
+        "temp": 28.1,
         "humidity": 69,
         "rain_prob": 5,
         "rain_mm": 0.0
@@ -221,42 +221,42 @@
       },
       {
         "time": "2026-04-03T18:00",
-        "temp": 27.0,
+        "temp": 26.9,
         "humidity": 75,
         "rain_prob": 3,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T19:00",
-        "temp": 26.5,
+        "temp": 26.3,
         "humidity": 76,
         "rain_prob": 5,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T20:00",
-        "temp": 26.0,
+        "temp": 26.1,
         "humidity": 78,
         "rain_prob": 15,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T21:00",
-        "temp": 25.9,
+        "temp": 26.1,
         "humidity": 78,
         "rain_prob": 8,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T22:00",
-        "temp": 25.8,
+        "temp": 25.9,
         "humidity": 79,
         "rain_prob": 15,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-03T23:00",
-        "temp": 25.8,
+        "temp": 25.6,
         "humidity": 81,
         "rain_prob": 23,
         "rain_mm": 0.0
