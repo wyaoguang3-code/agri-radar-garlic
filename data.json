@@ -1,23 +1,83 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-06T03:52:12.729206+08:00",
+  "generated_at": "2026-04-06T04:07:19.439802+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
     "update_frequency_minutes": 15
   },
   "price": {
-    "status": "資料不足",
-    "latest_price": null,
+    "status": "active",
+    "latest_price": 45.8,
     "unit": "元/公斤",
-    "market": null,
-    "message": "尚未抓到大蒜-蒜頭行情資料"
+    "market": "西螺鎮",
+    "market_price": 45.8,
+    "trade_date": "2026-04-03",
+    "message": "來源：AMIS 官網查詢（西螺鎮＋大蒜蒜頭） + 農業部 OpenData（全市場對比）",
+    "trend_7d": [
+      {
+        "date": "2026-03-31",
+        "price": 46.4
+      },
+      {
+        "date": "2026-04-01",
+        "price": 45.8
+      },
+      {
+        "date": "2026-04-03",
+        "price": 45.8
+      }
+    ],
+    "market_compare_latest": [
+      {
+        "market_no": "830",
+        "market": "鳳山區",
+        "price": 24.6,
+        "volume": 50.0
+      },
+      {
+        "market_no": "514",
+        "market": "溪湖鎮",
+        "price": 75.0,
+        "volume": 38.0
+      },
+      {
+        "market_no": "420",
+        "market": "豐原區",
+        "price": 50.1,
+        "volume": 23.0
+      },
+      {
+        "market_no": "241",
+        "market": "三重區",
+        "price": 51.6,
+        "volume": 16.0
+      },
+      {
+        "market_no": "400",
+        "market": "台中市",
+        "price": 40.7,
+        "volume": 7.0
+      },
+      {
+        "market_no": "900",
+        "market": "屏東市",
+        "price": 38.2,
+        "volume": 2.0
+      },
+      {
+        "market_no": "648",
+        "market": "西螺鎮",
+        "price": 45.8,
+        "volume": 0.0
+      }
+    ]
   },
   "market_volatility": {
-    "status": "資料不足",
-    "daily_change_pct": null,
-    "volatility_7d_pct": null,
-    "message": "尚未抓到可計算波動的資料"
+    "status": "active",
+    "daily_change_pct": 0.0,
+    "volatility_7d_pct": 0.61,
+    "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
     "ok": true,
