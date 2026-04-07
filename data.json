@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-07T10:40:06.036546+08:00",
+  "generated_at": "2026-04-07T10:55:26.265839+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -8,7 +8,7 @@
   },
   "price": {
     "status": "active",
-    "latest_price": 45.8,
+    "latest_price": 57.44,
     "unit": "元/公斤",
     "market": "西螺鎮",
     "market_price": 45.8,
