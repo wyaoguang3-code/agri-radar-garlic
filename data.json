@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-10T12:46:38.124597+08:00",
+  "generated_at": "2026-04-10T13:01:56.127976+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -287,6 +287,11 @@
       "處置原則：先隔離疑似區塊，再依官方建議防治"
     ],
     "recent_alerts": [
+      {
+        "title": "好消息！新加坡同意恢復我國豬肉輸入",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21544",
+        "time": "2026-04-10T00:00:00+08:00"
+      },
       {
         "title": "確保動物醫療權益，聚攏各界意見，部會合作滾動修正「人用藥品用於犬貓及非經濟動物之管理辦法」，以完善用藥機制",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21541",
