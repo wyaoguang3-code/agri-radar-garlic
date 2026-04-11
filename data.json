@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-11T08:14:20.865061+08:00",
+  "generated_at": "2026-04-11T08:29:31.182385+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -10,22 +10,14 @@
     "status": "active",
     "latest_price": 66.42,
     "unit": "元/公斤",
-    "market": "三重區",
-    "market_price": 67.3,
+    "market": "西螺鎮",
+    "market_price": 56.8,
     "trade_date": "2026-04-10",
     "message": "來源：AMIS 官網查詢（西螺鎮＋大蒜蒜頭） + 農業部 OpenData（全市場對比）",
     "trend_7d": [
       {
-        "date": "2026-04-08",
-        "price": 51.81
-      },
-      {
-        "date": "2026-04-09",
-        "price": 60.78
-      },
-      {
         "date": "2026-04-10",
-        "price": 66.42
+        "price": 56.8
       }
     ],
     "market_compare_latest": [
@@ -46,13 +38,19 @@
         "market": "台中市",
         "price": 44.2,
         "volume": 4.0
+      },
+      {
+        "market_no": "648",
+        "market": "西螺鎮",
+        "price": 56.8,
+        "volume": 0.0
       }
     ]
   },
   "market_volatility": {
     "status": "active",
-    "daily_change_pct": 9.27,
-    "volatility_7d_pct": 10.08,
+    "daily_change_pct": null,
+    "volatility_7d_pct": null,
     "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
