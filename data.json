@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-11T12:02:34.668647+08:00",
+  "generated_at": "2026-04-11T12:17:44.302664+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -56,7 +56,7 @@
   "weather": {
     "ok": true,
     "next24h": {
-      "max_temp": 28.3,
+      "max_temp": 28.5,
       "min_temp": 22.8,
       "max_humidity": 95,
       "max_rain_prob": 0,
@@ -125,63 +125,63 @@
       },
       {
         "time": "2026-04-11T08:00",
-        "temp": 24.8,
+        "temp": 25.2,
         "humidity": 86,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T09:00",
-        "temp": 26.3,
+        "temp": 26.6,
         "humidity": 79,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T10:00",
-        "temp": 27.1,
+        "temp": 27.5,
         "humidity": 73,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T11:00",
-        "temp": 27.8,
+        "temp": 28.0,
         "humidity": 71,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T12:00",
-        "temp": 28.1,
+        "temp": 28.3,
         "humidity": 70,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T13:00",
-        "temp": 28.2,
+        "temp": 28.5,
         "humidity": 70,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T14:00",
-        "temp": 28.3,
+        "temp": 28.5,
         "humidity": 71,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T15:00",
-        "temp": 28.3,
+        "temp": 28.5,
         "humidity": 69,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T16:00",
-        "temp": 28.1,
+        "temp": 28.2,
         "humidity": 69,
         "rain_prob": 0,
         "rain_mm": 0.0
@@ -195,28 +195,28 @@
       },
       {
         "time": "2026-04-11T18:00",
-        "temp": 26.0,
+        "temp": 26.1,
         "humidity": 81,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T19:00",
-        "temp": 25.5,
+        "temp": 25.4,
         "humidity": 84,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T20:00",
-        "temp": 25.1,
+        "temp": 25.0,
         "humidity": 84,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-11T21:00",
-        "temp": 24.8,
+        "temp": 24.7,
         "humidity": 85,
         "rain_prob": 0,
         "rain_mm": 0.0
@@ -230,7 +230,7 @@
       },
       {
         "time": "2026-04-11T23:00",
-        "temp": 24.1,
+        "temp": 24.3,
         "humidity": 88,
         "rain_prob": 0,
         "rain_mm": 0.0
