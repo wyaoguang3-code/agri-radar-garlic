@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-20T09:09:16.655395+08:00",
+  "generated_at": "2026-04-20T09:26:32.823143+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -277,8 +277,10 @@
   },
   "pest_prevention": {
     "status": "active",
-    "risk_level": "低",
-    "risk_reasons": [],
+    "risk_level": "中",
+    "risk_reasons": [
+      "近7日有病蟲害/防疫相關公告"
+    ],
     "source_name": "防檢署 RSS（news）",
     "source_url": "https://www.aphia.gov.tw/api.php?func=news&format=rss",
     "keywords": {
@@ -305,8 +307,18 @@
       ],
       "rule": "match_garlic_or_pest"
     },
-    "focus_items": [],
-    "recent_alerts": [],
+    "focus_items": [
+      "巡田重點：葉片斑點、黃化、萎凋與蟲咬痕跡",
+      "環境重點：連續高濕或降雨後 24–48h 加密巡查",
+      "處置原則：先隔離疑似區塊，再依官方建議防治"
+    ],
+    "recent_alerts": [
+      {
+        "title": "防檢署：進口馬鈴薯全流程嚴格把關 不合格一律棄置以確保食安",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21547",
+        "time": "2026-04-20T00:00:00+08:00"
+      }
+    ],
     "message": "來源：防檢署 RSS（news）關鍵字過濾（蒜/病蟲害）"
   },
   "policy_updates": {
