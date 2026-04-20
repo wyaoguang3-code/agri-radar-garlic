@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-20T08:00:39.494792+08:00",
+  "generated_at": "2026-04-20T08:17:52.283072+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -12,7 +12,7 @@
     "unit": "元/公斤",
     "market": "西螺鎮",
     "market_price": 64.5,
-    "trade_date": "2026-04-16",
+    "trade_date": "2026-04-18",
     "message": "來源：AMIS 官網查詢（西螺鎮＋大蒜蒜頭） + 農業部 OpenData（全市場對比）",
     "trend_7d": [
       {
@@ -22,49 +22,65 @@
       {
         "date": "2026-04-16",
         "price": 64.5
+      },
+      {
+        "date": "2026-04-18",
+        "price": 64.5
       }
     ],
     "market_compare_latest": [
       {
-        "market_no": "648",
-        "market": "西螺鎮",
-        "price": 64.5,
-        "volume": 3780.0
+        "market_no": "830",
+        "market": "鳳山區",
+        "price": 25.7,
+        "volume": 33.0
       },
       {
-        "market_no": "338",
-        "market": "桃農",
-        "price": 49.8,
-        "volume": 17.0
-      },
-      {
-        "market_no": "950",
-        "market": "花蓮市",
-        "price": 70.0,
-        "volume": 13.0
-      },
-      {
-        "market_no": "109",
-        "market": "台北一",
-        "price": 70.8,
-        "volume": 12.0
+        "market_no": "900",
+        "market": "屏東市",
+        "price": 29.4,
+        "volume": 33.0
       },
       {
         "market_no": "400",
         "market": "台中市",
-        "price": 46.7,
-        "volume": 9.0
+        "price": 47.1,
+        "volume": 18.0
       },
       {
         "market_no": "241",
         "market": "三重區",
-        "price": 68.0,
+        "price": 70.3,
         "volume": 7.0
       },
       {
-        "market_no": "800",
-        "market": "高雄市",
-        "price": 70.5,
+        "market_no": "109",
+        "market": "台北一",
+        "price": 71.6,
+        "volume": 5.0
+      },
+      {
+        "market_no": "220",
+        "market": "板橋區",
+        "price": 55.7,
+        "volume": 4.0
+      },
+      {
+        "market_no": "420",
+        "market": "豐原區",
+        "price": 72.9,
+        "volume": 3.0
+      },
+      {
+        "market_no": "338",
+        "market": "桃農",
+        "price": 54.0,
+        "volume": 0.0
+      },
+      {
+        "market_no": "648",
+        "market": "西螺鎮",
+        "price": 64.5,
         "volume": 0.0
       }
     ]
