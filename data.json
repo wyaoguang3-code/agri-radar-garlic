@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-20T10:00:36.134163+08:00",
+  "generated_at": "2026-04-20T10:17:20.016325+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -316,11 +316,6 @@
       {
         "title": "防檢署：進口馬鈴薯全流程嚴格把關 不合格一律棄置以確保食安",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21548",
-        "time": "2026-04-20T00:00:00+08:00"
-      },
-      {
-        "title": "防檢署：進口馬鈴薯全流程嚴格把關 不合格一律棄置以確保食安",
-        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21547",
         "time": "2026-04-20T00:00:00+08:00"
       }
     ],
