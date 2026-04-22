@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-22T16:27:55.560393+08:00",
+  "generated_at": "2026-04-22T16:45:00.604564+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -313,6 +313,11 @@
       "處置原則：先隔離疑似區塊，再依官方建議防治"
     ],
     "recent_alerts": [
+      {
+        "title": "註銷「人用藥品用於犬貓及非經濟動物之使用管理辦法」，綜整各界意見及實務運作，訂定新修正的管理辦法",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21549",
+        "time": "2026-04-22T00:00:00+08:00"
+      },
       {
         "title": "【澄清稿】防檢署：進口馬鈴薯全流程嚴格把關 不合格一律棄置以確保食安",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21548",
