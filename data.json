@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-22T17:18:59.440983+08:00",
+  "generated_at": "2026-04-22T17:36:03.414952+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -10,85 +10,53 @@
     "status": "active",
     "latest_price": 64.1,
     "unit": "元/公斤",
-    "market": "西螺鎮",
-    "market_price": 75.6,
-    "trade_date": "2026-04-21",
+    "market": "台北一",
+    "market_price": 66.6,
+    "trade_date": "2026-04-22",
     "message": "來源：AMIS 官網查詢（西螺鎮＋大蒜蒜頭） + 農業部 OpenData（全市場對比）",
     "trend_7d": [
       {
-        "date": "2026-04-16",
-        "price": 64.5
+        "date": "2026-04-19",
+        "price": 65.83
       },
       {
-        "date": "2026-04-18",
-        "price": 64.5
+        "date": "2026-04-20",
+        "price": 75.58
       },
       {
         "date": "2026-04-21",
-        "price": 75.6
+        "price": 64.85
+      },
+      {
+        "date": "2026-04-22",
+        "price": 64.1
       }
     ],
     "market_compare_latest": [
       {
-        "market_no": "648",
-        "market": "西螺鎮",
-        "price": 75.6,
-        "volume": 2898.0
-      },
-      {
         "market_no": "900",
         "market": "屏東市",
-        "price": 20.4,
-        "volume": 67.0
+        "price": 51.1,
+        "volume": 77.0
       },
       {
-        "market_no": "514",
-        "market": "溪湖鎮",
-        "price": 83.3,
-        "volume": 52.0
-      },
-      {
-        "market_no": "338",
-        "market": "桃農",
-        "price": 43.5,
-        "volume": 26.0
-      },
-      {
-        "market_no": "420",
-        "market": "豐原區",
-        "price": 72.7,
-        "volume": 13.0
-      },
-      {
-        "market_no": "104",
-        "market": "台北二",
-        "price": 62.0,
-        "volume": 11.0
-      },
-      {
-        "market_no": "109",
-        "market": "台北一",
-        "price": 61.4,
+        "market_no": "220",
+        "market": "板橋區",
+        "price": 57.2,
         "volume": 8.0
       },
       {
-        "market_no": "241",
-        "market": "三重區",
-        "price": 60.2,
-        "volume": 8.0
-      },
-      {
-        "market_no": "400",
-        "market": "台中市",
-        "price": 51.0,
-        "volume": 4.0
+        "market_no": "800",
+        "market": "高雄市",
+        "price": 74.7,
+        "volume": 2.0
       }
     ]
   },
   "market_volatility": {
     "status": "active",
-    "daily_change_pct": 17.21,
-    "volatility_7d_pct": 7.67,
+    "daily_change_pct": -1.16,
+    "volatility_7d_pct": 6.89,
     "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
