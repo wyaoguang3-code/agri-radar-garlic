@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-23T18:41:11.393123+08:00",
+  "generated_at": "2026-04-23T18:58:05.845641+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -273,9 +273,10 @@
   },
   "pest_prevention": {
     "status": "active",
-    "risk_level": "中",
+    "risk_level": "高",
     "risk_reasons": [
-      "近7日有病蟲害/防疫相關公告"
+      "近7日有病蟲害/防疫相關公告",
+      "近7日公告密度偏高"
     ],
     "source_name": "防檢署 RSS（news）",
     "source_url": "https://www.aphia.gov.tw/api.php?func=news&format=rss",
@@ -309,6 +310,11 @@
       "處置原則：先隔離疑似區塊，再依官方建議防治"
     ],
     "recent_alerts": [
+      {
+        "title": "寵物看診用藥免擔心，防檢署說明點滴與刷洗液供應整體穩定",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21550",
+        "time": "2026-04-23T00:00:00+08:00"
+      },
       {
         "title": "註銷「人用藥品用於犬貓及非經濟動物之使用管理辦法」，綜整各界意見及實務運作，訂定新修正的管理辦法",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21549",
