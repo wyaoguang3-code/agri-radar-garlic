@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-23T11:08:13.788802+08:00",
+  "generated_at": "2026-04-23T13:55:22.447471+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -90,11 +90,11 @@
   "weather": {
     "ok": true,
     "next24h": {
-      "max_temp": 29.3,
+      "max_temp": 29.4,
       "min_temp": 25.1,
       "max_humidity": 90,
-      "max_rain_prob": 68,
-      "rain_sum_mm": 0.0,
+      "max_rain_prob": 45,
+      "rain_sum_mm": 1.1,
       "risk_level": "中",
       "risk_reasons": [
         "高濕/高降雨機率"
@@ -159,15 +159,15 @@
       },
       {
         "time": "2026-04-23T08:00",
-        "temp": 26.9,
-        "humidity": 77,
+        "temp": 27.0,
+        "humidity": 78,
         "rain_prob": 5,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T09:00",
         "temp": 28.2,
-        "humidity": 66,
+        "humidity": 68,
         "rain_prob": 0,
         "rain_mm": 0.0
       },
@@ -175,99 +175,99 @@
         "time": "2026-04-23T10:00",
         "temp": 28.8,
         "humidity": 64,
-        "rain_prob": 8,
+        "rain_prob": 15,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T11:00",
         "temp": 29.1,
-        "humidity": 63,
+        "humidity": 65,
         "rain_prob": 10,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T12:00",
-        "temp": 29.3,
-        "humidity": 62,
-        "rain_prob": 23,
+        "temp": 29.4,
+        "humidity": 63,
+        "rain_prob": 15,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T13:00",
-        "temp": 28.9,
+        "temp": 29.3,
         "humidity": 64,
-        "rain_prob": 25,
+        "rain_prob": 15,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T14:00",
-        "temp": 29.1,
-        "humidity": 61,
-        "rain_prob": 25,
+        "temp": 29.4,
+        "humidity": 62,
+        "rain_prob": 10,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T15:00",
-        "temp": 28.7,
-        "humidity": 65,
-        "rain_prob": 38,
+        "temp": 29.0,
+        "humidity": 66,
+        "rain_prob": 10,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T16:00",
-        "temp": 28.2,
-        "humidity": 68,
-        "rain_prob": 40,
+        "temp": 28.6,
+        "humidity": 69,
+        "rain_prob": 15,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T17:00",
-        "temp": 27.7,
-        "humidity": 69,
-        "rain_prob": 53,
+        "temp": 28.1,
+        "humidity": 71,
+        "rain_prob": 13,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T18:00",
-        "temp": 27.1,
-        "humidity": 73,
-        "rain_prob": 55,
+        "temp": 27.3,
+        "humidity": 75,
+        "rain_prob": 3,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T19:00",
-        "temp": 26.5,
-        "humidity": 79,
-        "rain_prob": 48,
+        "temp": 26.6,
+        "humidity": 81,
+        "rain_prob": 10,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T20:00",
-        "temp": 25.9,
-        "humidity": 85,
-        "rain_prob": 55,
+        "temp": 26.2,
+        "humidity": 84,
+        "rain_prob": 18,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T21:00",
-        "temp": 25.6,
-        "humidity": 88,
-        "rain_prob": 55,
+        "temp": 26.1,
+        "humidity": 85,
+        "rain_prob": 35,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-23T22:00",
-        "temp": 25.4,
-        "humidity": 89,
-        "rain_prob": 60,
-        "rain_mm": 0.0
+        "temp": 25.2,
+        "humidity": 87,
+        "rain_prob": 43,
+        "rain_mm": 0.5
       },
       {
         "time": "2026-04-23T23:00",
-        "temp": 25.2,
-        "humidity": 89,
-        "rain_prob": 68,
-        "rain_mm": 0.0
+        "temp": 25.1,
+        "humidity": 87,
+        "rain_prob": 45,
+        "rain_mm": 0.6
       }
     ]
   },
