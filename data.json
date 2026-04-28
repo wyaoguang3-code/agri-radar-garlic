@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-28T22:59:36.967843+08:00",
+  "generated_at": "2026-04-28T23:16:43.362335+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -47,7 +47,7 @@
       "max_temp": 30.2,
       "min_temp": 19.5,
       "max_humidity": 92,
-      "max_rain_prob": 4,
+      "max_rain_prob": 55,
       "rain_sum_mm": 0.0,
       "risk_level": "中",
       "risk_reasons": [
@@ -164,63 +164,63 @@
         "time": "2026-04-28T15:00",
         "temp": 27.2,
         "humidity": 52,
-        "rain_prob": 0,
+        "rain_prob": 18,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T16:00",
         "temp": 28.1,
         "humidity": 50,
-        "rain_prob": 0,
+        "rain_prob": 43,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T17:00",
         "temp": 27.8,
         "humidity": 52,
-        "rain_prob": 0,
+        "rain_prob": 55,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T18:00",
         "temp": 26.1,
         "humidity": 61,
-        "rain_prob": 1,
+        "rain_prob": 43,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T19:00",
         "temp": 24.6,
         "humidity": 64,
-        "rain_prob": 3,
+        "rain_prob": 20,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T20:00",
         "temp": 23.7,
         "humidity": 67,
-        "rain_prob": 4,
+        "rain_prob": 2,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T21:00",
         "temp": 22.6,
         "humidity": 73,
-        "rain_prob": 4,
+        "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T22:00",
         "temp": 22.5,
         "humidity": 75,
-        "rain_prob": 3,
+        "rain_prob": 0,
         "rain_mm": 0.0
       },
       {
         "time": "2026-04-28T23:00",
         "temp": 22.5,
         "humidity": 75,
-        "rain_prob": 4,
+        "rain_prob": 2,
         "rain_mm": 0.0
       }
     ]
