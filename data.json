@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-29T23:51:45.573969+08:00",
+  "generated_at": "2026-04-30T00:09:01.429897+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -10,45 +10,89 @@
     "status": "active",
     "latest_price": 62.38,
     "unit": "元/公斤",
-    "market": "西螺鎮",
-    "market_price": 75.6,
-    "trade_date": "2026-04-23",
+    "market": "台北一",
+    "market_price": 66.3,
+    "trade_date": "2026-04-29",
     "message": "來源：AMIS 官網查詢（西螺鎮＋大蒜蒜頭） + 農業部 OpenData（全市場對比）",
     "trend_7d": [
       {
-        "date": "2026-04-23",
+        "date": "2026-04-27",
         "price": 75.6
+      },
+      {
+        "date": "2026-04-28",
+        "price": 76.3
+      },
+      {
+        "date": "2026-04-29",
+        "price": 62.38
       }
     ],
     "market_compare_latest": [
       {
-        "market_no": "648",
-        "market": "西螺鎮",
-        "price": 75.6,
-        "volume": 2448.0
+        "market_no": "220",
+        "market": "板橋區",
+        "price": 50.4,
+        "volume": 29.0
+      },
+      {
+        "market_no": "514",
+        "market": "溪湖鎮",
+        "price": 83.3,
+        "volume": 28.0
       },
       {
         "market_no": "420",
         "market": "豐原區",
-        "price": 51.5,
-        "volume": 30.0
+        "price": 51.0,
+        "volume": 25.0
+      },
+      {
+        "market_no": "338",
+        "market": "桃農",
+        "price": 53.2,
+        "volume": 19.0
+      },
+      {
+        "market_no": "241",
+        "market": "三重區",
+        "price": 56.1,
+        "volume": 14.0
+      },
+      {
+        "market_no": "400",
+        "market": "台中市",
+        "price": 47.9,
+        "volume": 6.0
+      },
+      {
+        "market_no": "800",
+        "market": "高雄市",
+        "price": 76.9,
+        "volume": 2.0
+      },
+      {
+        "market_no": "104",
+        "market": "台北二",
+        "price": 66.2,
+        "volume": 0.0
       }
     ]
   },
   "market_volatility": {
     "status": "active",
-    "daily_change_pct": null,
-    "volatility_7d_pct": null,
+    "daily_change_pct": -18.24,
+    "volatility_7d_pct": 8.96,
     "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
     "ok": true,
     "next24h": {
-      "max_temp": 30.0,
-      "min_temp": 20.9,
-      "max_humidity": 93,
-      "max_rain_prob": 84,
-      "rain_sum_mm": 5.7,
+      "max_temp": 25.8,
+      "min_temp": 19.1,
+      "max_humidity": 100,
+      "max_rain_prob": 78,
+      "rain_sum_mm": 1.4,
       "risk_level": "中",
       "risk_reasons": [
         "高濕/高降雨機率"
@@ -56,172 +100,172 @@
     },
     "next24h_series": [
       {
-        "time": "2026-04-29T00:00",
+        "time": "2026-04-30T00:00",
+        "temp": 22.3,
+        "humidity": 95,
+        "rain_prob": 17,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-04-30T01:00",
         "temp": 22.1,
-        "humidity": 76,
-        "rain_prob": 3,
+        "humidity": 97,
+        "rain_prob": 17,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T01:00",
+        "time": "2026-04-30T02:00",
         "temp": 21.8,
-        "humidity": 79,
-        "rain_prob": 1,
+        "humidity": 98,
+        "rain_prob": 18,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T02:00",
-        "temp": 22.0,
-        "humidity": 78,
-        "rain_prob": 0,
+        "time": "2026-04-30T03:00",
+        "temp": 21.9,
+        "humidity": 98,
+        "rain_prob": 21,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T03:00",
-        "temp": 22.0,
-        "humidity": 78,
-        "rain_prob": 3,
+        "time": "2026-04-30T04:00",
+        "temp": 21.4,
+        "humidity": 100,
+        "rain_prob": 24,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T04:00",
+        "time": "2026-04-30T05:00",
         "temp": 21.5,
-        "humidity": 82,
-        "rain_prob": 8,
+        "humidity": 99,
+        "rain_prob": 27,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T05:00",
-        "temp": 20.9,
-        "humidity": 86,
-        "rain_prob": 10,
+        "time": "2026-04-30T06:00",
+        "temp": 21.8,
+        "humidity": 98,
+        "rain_prob": 26,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T06:00",
-        "temp": 20.9,
-        "humidity": 87,
-        "rain_prob": 6,
+        "time": "2026-04-30T07:00",
+        "temp": 22.4,
+        "humidity": 94,
+        "rain_prob": 24,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T07:00",
-        "temp": 23.0,
-        "humidity": 79,
-        "rain_prob": 0,
+        "time": "2026-04-30T08:00",
+        "temp": 23.2,
+        "humidity": 89,
+        "rain_prob": 27,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T08:00",
-        "temp": 26.0,
-        "humidity": 67,
-        "rain_prob": 0,
+        "time": "2026-04-30T09:00",
+        "temp": 24.1,
+        "humidity": 83,
+        "rain_prob": 40,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T09:00",
-        "temp": 28.0,
-        "humidity": 61,
-        "rain_prob": 16,
+        "time": "2026-04-30T10:00",
+        "temp": 25.8,
+        "humidity": 74,
+        "rain_prob": 57,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T10:00",
-        "temp": 30.0,
-        "humidity": 57,
-        "rain_prob": 39,
+        "time": "2026-04-30T11:00",
+        "temp": 25.6,
+        "humidity": 73,
+        "rain_prob": 69,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T11:00",
-        "temp": 27.8,
-        "humidity": 69,
-        "rain_prob": 59,
-        "rain_mm": 0.6
+        "time": "2026-04-30T12:00",
+        "temp": 25.7,
+        "humidity": 71,
+        "rain_prob": 69,
+        "rain_mm": 0.1
       },
       {
-        "time": "2026-04-29T12:00",
-        "temp": 27.5,
-        "humidity": 76,
-        "rain_prob": 70,
+        "time": "2026-04-30T13:00",
+        "temp": 25.4,
+        "humidity": 73,
+        "rain_prob": 64,
+        "rain_mm": 0.3
+      },
+      {
+        "time": "2026-04-30T14:00",
+        "temp": 25.1,
+        "humidity": 72,
+        "rain_prob": 61,
+        "rain_mm": 0.5
+      },
+      {
+        "time": "2026-04-30T15:00",
+        "temp": 24.0,
+        "humidity": 75,
+        "rain_prob": 66,
+        "rain_mm": 0.3
+      },
+      {
+        "time": "2026-04-30T16:00",
+        "temp": 23.4,
+        "humidity": 78,
+        "rain_prob": 74,
         "rain_mm": 0.2
       },
       {
-        "time": "2026-04-29T13:00",
-        "temp": 29.9,
-        "humidity": 67,
+        "time": "2026-04-30T17:00",
+        "temp": 23.1,
+        "humidity": 77,
         "rain_prob": 78,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T14:00",
-        "temp": 29.5,
-        "humidity": 67,
-        "rain_prob": 82,
-        "rain_mm": 1.7
-      },
-      {
-        "time": "2026-04-29T15:00",
-        "temp": 29.2,
-        "humidity": 67,
-        "rain_prob": 84,
+        "time": "2026-04-30T18:00",
+        "temp": 22.0,
+        "humidity": 80,
+        "rain_prob": 74,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T16:00",
-        "temp": 28.9,
-        "humidity": 70,
-        "rain_prob": 84,
-        "rain_mm": 2.0
-      },
-      {
-        "time": "2026-04-29T17:00",
-        "temp": 28.6,
-        "humidity": 72,
-        "rain_prob": 78,
-        "rain_mm": 1.1
-      },
-      {
-        "time": "2026-04-29T18:00",
-        "temp": 27.1,
+        "time": "2026-04-30T19:00",
+        "temp": 21.0,
         "humidity": 82,
-        "rain_prob": 64,
+        "rain_prob": 65,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T19:00",
-        "temp": 25.0,
-        "humidity": 93,
-        "rain_prob": 44,
+        "time": "2026-04-30T20:00",
+        "temp": 20.2,
+        "humidity": 84,
+        "rain_prob": 55,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T20:00",
-        "temp": 23.0,
-        "humidity": 89,
+        "time": "2026-04-30T21:00",
+        "temp": 19.9,
+        "humidity": 85,
+        "rain_prob": 43,
+        "rain_mm": 0.0
+      },
+      {
+        "time": "2026-04-30T22:00",
+        "temp": 19.5,
+        "humidity": 85,
         "rain_prob": 29,
         "rain_mm": 0.0
       },
       {
-        "time": "2026-04-29T21:00",
-        "temp": 22.4,
-        "humidity": 91,
-        "rain_prob": 22,
-        "rain_mm": 0.0
-      },
-      {
-        "time": "2026-04-29T22:00",
-        "temp": 22.4,
-        "humidity": 92,
-        "rain_prob": 19,
-        "rain_mm": 0.0
-      },
-      {
-        "time": "2026-04-29T23:00",
-        "temp": 22.4,
-        "humidity": 93,
+        "time": "2026-04-30T23:00",
+        "temp": 19.1,
+        "humidity": 87,
         "rain_prob": 18,
-        "rain_mm": 0.1
+        "rain_mm": 0.0
       }
     ]
   },
@@ -267,11 +311,6 @@
         "title": "重返三大豬病非疫國後又傳好消息 菲律賓同意恢復我國種豬及豬肉輸入",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21551",
         "time": "2026-04-29T00:00:00+08:00"
-      },
-      {
-        "title": "寵物看診用藥免擔心，防檢署說明點滴與刷洗液供應整體穩定",
-        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21550",
-        "time": "2026-04-23T00:00:00+08:00"
       }
     ],
     "message": "來源：防檢署 RSS（news）關鍵字過濾（蒜/病蟲害）"
