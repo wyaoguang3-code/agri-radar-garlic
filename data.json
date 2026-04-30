@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-30T08:18:43.663718+08:00",
+  "generated_at": "2026-04-30T08:35:48.111594+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -8,87 +8,45 @@
   },
   "price": {
     "status": "active",
-    "latest_price": 62.38,
+    "latest_price": 73.36,
     "unit": "元/公斤",
     "market": "台北一",
-    "market_price": 66.3,
-    "trade_date": "2026-04-29",
+    "market_price": 58.7,
+    "trade_date": "2026-04-30",
     "message": "來源：AMIS 官網查詢（西螺鎮＋大蒜蒜頭） + 農業部 OpenData（全市場對比）",
     "trend_7d": [
-      {
-        "date": "2026-04-27",
-        "price": 75.6
-      },
       {
         "date": "2026-04-28",
         "price": 76.3
       },
       {
         "date": "2026-04-29",
-        "price": 62.38
+        "price": 76.87
+      },
+      {
+        "date": "2026-04-30",
+        "price": 73.36
       }
     ],
     "market_compare_latest": [
       {
-        "market_no": "648",
-        "market": "西螺鎮",
-        "price": 101.7,
-        "volume": 2448.0
-      },
-      {
-        "market_no": "220",
-        "market": "板橋區",
-        "price": 50.4,
-        "volume": 29.0
-      },
-      {
         "market_no": "514",
         "market": "溪湖鎮",
         "price": 83.3,
-        "volume": 28.0
+        "volume": 12.0
       },
       {
-        "market_no": "420",
-        "market": "豐原區",
-        "price": 51.0,
-        "volume": 25.0
-      },
-      {
-        "market_no": "338",
-        "market": "桃農",
-        "price": 53.2,
-        "volume": 19.0
-      },
-      {
-        "market_no": "241",
-        "market": "三重區",
-        "price": 56.1,
-        "volume": 14.0
-      },
-      {
-        "market_no": "400",
-        "market": "台中市",
-        "price": 47.9,
-        "volume": 6.0
-      },
-      {
-        "market_no": "800",
-        "market": "高雄市",
-        "price": 76.9,
-        "volume": 2.0
-      },
-      {
-        "market_no": "104",
-        "market": "台北二",
-        "price": 66.2,
-        "volume": 0.0
+        "market_no": "109",
+        "market": "台北一",
+        "price": 58.7,
+        "volume": 11.0
       }
     ]
   },
   "market_volatility": {
     "status": "active",
-    "daily_change_pct": -18.24,
-    "volatility_7d_pct": 8.96,
+    "daily_change_pct": -4.57,
+    "volatility_7d_pct": 2.04,
     "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
