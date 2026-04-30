@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-30T10:52:49.114418+08:00",
+  "generated_at": "2026-04-30T11:09:42.889664+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -8,7 +8,7 @@
   },
   "price": {
     "status": "active",
-    "latest_price": 67.44,
+    "latest_price": 67.18,
     "unit": "元/公斤",
     "market": "豐原區",
     "market_price": 67.7,
@@ -17,7 +17,7 @@
     "trend_7d": [
       {
         "date": "2026-04-28",
-        "price": 76.66
+        "price": 76.52
       },
       {
         "date": "2026-04-29",
@@ -25,7 +25,7 @@
       },
       {
         "date": "2026-04-30",
-        "price": 67.44
+        "price": 67.18
       }
     ],
     "market_compare_latest": [
@@ -57,8 +57,8 @@
   },
   "market_volatility": {
     "status": "active",
-    "daily_change_pct": -12.26,
-    "volatility_7d_pct": 5.97,
+    "daily_change_pct": -12.61,
+    "volatility_7d_pct": 6.11,
     "message": "波動率為近交易日價格標準差/均值"
   },
   "weather": {
