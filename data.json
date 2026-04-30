@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-30T08:52:58.668962+08:00",
+  "generated_at": "2026-04-30T09:10:13.282801+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -29,6 +29,12 @@
       }
     ],
     "market_compare_latest": [
+      {
+        "market_no": "830",
+        "market": "鳳山區",
+        "price": 62.3,
+        "volume": 25.0
+      },
       {
         "market_no": "514",
         "market": "溪湖鎮",
