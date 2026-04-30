@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-04-30T19:03:47.536030+08:00",
+  "generated_at": "2026-04-30T19:20:38.477715+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -289,6 +289,11 @@
       "處置原則：先隔離疑似區塊，再依官方建議防治"
     ],
     "recent_alerts": [
+      {
+        "title": "苗栗縣銅鑼鄉首次檢出鼬獾狂犬病陽性病例，防檢署呼籲民眾遵守二不一要原則",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21552",
+        "time": "2026-04-30T00:00:00+08:00"
+      },
       {
         "title": "重返三大豬病非疫國後又傳好消息 菲律賓同意恢復我國種豬及豬肉輸入",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21551",
