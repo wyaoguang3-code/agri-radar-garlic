@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-03T12:01:44.705034+08:00",
+  "generated_at": "2026-05-03T12:33:38.919582+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -22,59 +22,40 @@
     ],
     "market_compare_latest": [
       {
-        "market": "豐原區",
-        "price": 67.7,
-        "volume": 1297.0
+        "market_no": "648",
+        "market": "西螺鎮",
+        "price": 101.7,
+        "volume": 2340.0
       },
       {
-        "market": "台北一",
-        "price": 58.7,
-        "volume": 789.0
+        "market_no": "950",
+        "market": "花蓮市",
+        "price": 64.6,
+        "volume": 101.0
       },
       {
-        "market": "高雄市",
-        "price": 90.63,
-        "volume": 719.0
-      },
-      {
-        "market": "台北二",
-        "price": 70.7,
-        "volume": 633.0
-      },
-      {
-        "market": "三重區",
-        "price": 60.4,
-        "volume": 605.0
-      },
-      {
-        "market": "板橋區",
-        "price": 54.9,
-        "volume": 419.0
-      },
-      {
-        "market": "桃農",
-        "price": 48.1,
-        "volume": 194.0
-      },
-      {
-        "market": "台中市",
-        "price": 58.7,
-        "volume": 149.0
-      },
-      {
-        "market": "屏東市",
-        "price": 86.0,
-        "volume": 56.0
-      },
-      {
+        "market_no": "830",
         "market": "鳳山區",
         "price": 62.3,
         "volume": 25.0
       },
       {
+        "market_no": "514",
         "market": "溪湖鎮",
         "price": 83.3,
         "volume": 12.0
+      },
+      {
+        "market_no": "109",
+        "market": "台北一",
+        "price": 58.7,
+        "volume": 11.0
+      },
+      {
+        "market_no": "338",
+        "market": "桃農",
+        "price": 48.1,
+        "volume": 10.0
       }
     ]
   },
