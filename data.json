@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-03T20:29:19.171993+08:00",
+  "generated_at": "2026-05-03T20:46:22.678909+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -72,7 +72,7 @@
       "min_temp": 22.3,
       "max_humidity": 94,
       "max_rain_prob": 100,
-      "rain_sum_mm": 2.4,
+      "rain_sum_mm": 3.4,
       "risk_level": "中",
       "risk_reasons": [
         "高濕/高降雨機率"
@@ -189,14 +189,14 @@
         "temp": 28.9,
         "humidity": 68,
         "rain_prob": 98,
-        "rain_mm": 0.0
+        "rain_mm": 1.1
       },
       {
         "time": "2026-05-03T16:00",
         "temp": 28.8,
         "humidity": 70,
         "rain_prob": 100,
-        "rain_mm": 0.1
+        "rain_mm": 0.0
       },
       {
         "time": "2026-05-03T17:00",
