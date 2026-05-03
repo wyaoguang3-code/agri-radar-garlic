@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-03T22:59:21.446317+08:00",
+  "generated_at": "2026-05-03T23:16:37.910344+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -188,7 +188,7 @@
         "time": "2026-05-03T15:00",
         "temp": 29.3,
         "humidity": 67,
-        "rain_prob": 98,
+        "rain_prob": 99,
         "rain_mm": 1.1
       },
       {
@@ -202,49 +202,49 @@
         "time": "2026-05-03T17:00",
         "temp": 28.0,
         "humidity": 74,
-        "rain_prob": 96,
+        "rain_prob": 94,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-03T18:00",
         "temp": 27.4,
         "humidity": 78,
-        "rain_prob": 78,
+        "rain_prob": 68,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-03T19:00",
         "temp": 26.2,
         "humidity": 83,
-        "rain_prob": 52,
+        "rain_prob": 31,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-03T20:00",
         "temp": 25.3,
         "humidity": 87,
-        "rain_prob": 35,
+        "rain_prob": 6,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-03T21:00",
         "temp": 24.8,
         "humidity": 90,
-        "rain_prob": 34,
+        "rain_prob": 5,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-03T22:00",
         "temp": 24.5,
         "humidity": 91,
-        "rain_prob": 42,
+        "rain_prob": 17,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-03T23:00",
         "temp": 23.8,
         "humidity": 96,
-        "rain_prob": 47,
+        "rain_prob": 29,
         "rain_mm": 0.0
       }
     ]
