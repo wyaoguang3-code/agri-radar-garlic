@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-04T13:30:12.252176+08:00",
+  "generated_at": "2026-05-04T13:46:56.006463+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -251,9 +251,10 @@
   },
   "pest_prevention": {
     "status": "active",
-    "risk_level": "中",
+    "risk_level": "高",
     "risk_reasons": [
-      "近7日有病蟲害/防疫相關公告"
+      "近7日有病蟲害/防疫相關公告",
+      "近7日公告密度偏高"
     ],
     "source_name": "防檢署 RSS（news）",
     "source_url": "https://www.aphia.gov.tw/api.php?func=news&format=rss",
@@ -287,6 +288,11 @@
       "處置原則：先隔離疑似區塊，再依官方建議防治"
     ],
     "recent_alerts": [
+      {
+        "title": "【澄清稿】我國對美國禽流感管制符合WOAH規範 確保檢疫安全防止疫病入侵",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21553",
+        "time": "2026-05-04T00:00:00+08:00"
+      },
       {
         "title": "苗栗縣銅鑼鄉首次檢出鼬獾狂犬病陽性病例，防檢署呼籲民眾遵守二不一要原則",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21552",
