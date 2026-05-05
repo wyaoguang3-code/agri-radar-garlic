@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-05T14:05:49.029098+08:00",
+  "generated_at": "2026-05-05T14:22:50.420138+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -289,6 +289,11 @@
       "處置原則：先隔離疑似區塊，再依官方建議防治"
     ],
     "recent_alerts": [
+      {
+        "title": "屏東鹽埔鵪鶉場確診H5N1高原病性禽流感，請業者落實各項生物安全工作",
+        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21554",
+        "time": "2026-05-05T00:00:00+08:00"
+      },
       {
         "title": "【澄清稿】我國對美國禽流感管制符合WOAH規範 確保檢疫安全防止疫病入侵",
         "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21553",
