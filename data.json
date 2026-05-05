@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-05T21:30:00.439601+08:00",
+  "generated_at": "2026-05-05T21:47:43.056868+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -22,40 +22,59 @@
     ],
     "market_compare_latest": [
       {
-        "market_no": "648",
-        "market": "西螺鎮",
-        "price": 101.7,
-        "volume": 2340.0
+        "market": "台北二",
+        "price": 56.5,
+        "volume": 1147.0
       },
       {
-        "market_no": "950",
-        "market": "花蓮市",
-        "price": 64.6,
-        "volume": 101.0
-      },
-      {
-        "market_no": "830",
-        "market": "鳳山區",
-        "price": 62.3,
-        "volume": 25.0
-      },
-      {
-        "market_no": "514",
-        "market": "溪湖鎮",
-        "price": 83.3,
-        "volume": 12.0
-      },
-      {
-        "market_no": "109",
         "market": "台北一",
-        "price": 58.7,
-        "volume": 11.0
+        "price": 62.2,
+        "volume": 988.0
       },
       {
-        "market_no": "338",
+        "market": "三重區",
+        "price": 56.2,
+        "volume": 813.0
+      },
+      {
+        "market": "高雄市",
+        "price": 78.6,
+        "volume": 752.0
+      },
+      {
         "market": "桃農",
-        "price": 48.1,
-        "volume": 10.0
+        "price": 51.5,
+        "volume": 374.0
+      },
+      {
+        "market": "板橋區",
+        "price": 79.8,
+        "volume": 356.0
+      },
+      {
+        "market": "台中市",
+        "price": 61.1,
+        "volume": 348.0
+      },
+      {
+        "market": "屏東市",
+        "price": 50.8,
+        "volume": 130.0
+      },
+      {
+        "market": "豐原區",
+        "price": 77.0,
+        "volume": 50.0
+      },
+      {
+        "market": "鳳山區",
+        "price": 66.5,
+        "volume": 20.0
+      },
+      {
+        "market": "溪湖鎮",
+        "price": 108.3,
+        "volume": 12.0
       }
     ]
   },
@@ -69,7 +88,7 @@
     "ok": true,
     "next24h": {
       "max_temp": 25.1,
-      "min_temp": 20.5,
+      "min_temp": 20.4,
       "max_humidity": 99,
       "max_rain_prob": 100,
       "rain_sum_mm": 31.3,
@@ -180,56 +199,56 @@
       },
       {
         "time": "2026-05-05T14:00",
-        "temp": 22.7,
-        "humidity": 86,
+        "temp": 23.0,
+        "humidity": 84,
         "rain_prob": 100,
         "rain_mm": 0.5
       },
       {
         "time": "2026-05-05T15:00",
-        "temp": 21.8,
-        "humidity": 93,
+        "temp": 23.0,
+        "humidity": 86,
         "rain_prob": 100,
         "rain_mm": 0.4
       },
       {
         "time": "2026-05-05T16:00",
-        "temp": 21.5,
-        "humidity": 97,
+        "temp": 22.2,
+        "humidity": 93,
         "rain_prob": 100,
         "rain_mm": 1.9
       },
       {
         "time": "2026-05-05T17:00",
-        "temp": 21.6,
-        "humidity": 95,
+        "temp": 21.9,
+        "humidity": 94,
         "rain_prob": 100,
         "rain_mm": 2.5
       },
       {
         "time": "2026-05-05T18:00",
-        "temp": 21.4,
-        "humidity": 96,
+        "temp": 21.6,
+        "humidity": 95,
         "rain_prob": 100,
         "rain_mm": 2.6
       },
       {
         "time": "2026-05-05T19:00",
-        "temp": 21.1,
-        "humidity": 98,
+        "temp": 21.4,
+        "humidity": 96,
         "rain_prob": 100,
         "rain_mm": 3.5
       },
       {
         "time": "2026-05-05T20:00",
-        "temp": 20.9,
-        "humidity": 97,
+        "temp": 21.1,
+        "humidity": 96,
         "rain_prob": 100,
         "rain_mm": 3.3
       },
       {
         "time": "2026-05-05T21:00",
-        "temp": 20.8,
+        "temp": 20.9,
         "humidity": 95,
         "rain_prob": 100,
         "rain_mm": 4.1
@@ -243,8 +262,8 @@
       },
       {
         "time": "2026-05-05T23:00",
-        "temp": 20.5,
-        "humidity": 95,
+        "temp": 20.4,
+        "humidity": 96,
         "rain_prob": 98,
         "rain_mm": 2.1
       }
@@ -252,11 +271,8 @@
   },
   "pest_prevention": {
     "status": "active",
-    "risk_level": "高",
-    "risk_reasons": [
-      "近7日有病蟲害/防疫相關公告",
-      "近7日公告密度偏高"
-    ],
+    "risk_level": "低",
+    "risk_reasons": [],
     "source_name": "防檢署 RSS（news）",
     "source_url": "https://www.aphia.gov.tw/api.php?func=news&format=rss",
     "keywords": {
@@ -283,33 +299,8 @@
       ],
       "rule": "match_garlic_or_pest"
     },
-    "focus_items": [
-      "巡田重點：葉片斑點、黃化、萎凋與蟲咬痕跡",
-      "環境重點：連續高濕或降雨後 24–48h 加密巡查",
-      "處置原則：先隔離疑似區塊，再依官方建議防治"
-    ],
-    "recent_alerts": [
-      {
-        "title": "屏東鹽埔鵪鶉場確診H5N1高原病性禽流感，請業者落實各項生物安全工作",
-        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21554",
-        "time": "2026-05-05T00:00:00+08:00"
-      },
-      {
-        "title": "【澄清稿】我國對美國禽流感管制符合WOAH規範 確保檢疫安全防止疫病入侵",
-        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21553",
-        "time": "2026-05-04T00:00:00+08:00"
-      },
-      {
-        "title": "苗栗縣銅鑼鄉首次檢出鼬獾狂犬病陽性病例，防檢署呼籲民眾遵守二不一要原則",
-        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21552",
-        "time": "2026-04-30T00:00:00+08:00"
-      },
-      {
-        "title": "重返三大豬病非疫國後又傳好消息 菲律賓同意恢復我國種豬及豬肉輸入",
-        "url": "https://www.aphia.gov.tw/theme_data.php?theme=NewInfoListWS&id=21551",
-        "time": "2026-04-29T00:00:00+08:00"
-      }
-    ],
+    "focus_items": [],
+    "recent_alerts": [],
     "message": "來源：防檢署 RSS（news）關鍵字過濾（蒜/病蟲害）"
   },
   "policy_updates": {
