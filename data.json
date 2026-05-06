@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-06T14:27:11.905347+08:00",
+  "generated_at": "2026-05-06T14:45:03.599430+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -26,64 +26,49 @@
     ],
     "market_compare_latest": [
       {
-        "market_no": "648",
-        "market": "西螺鎮",
-        "price": 101.7,
-        "volume": 2304.0
-      },
-      {
-        "market_no": "338",
-        "market": "桃農",
-        "price": 51.5,
-        "volume": 38.0
-      },
-      {
-        "market_no": "900",
-        "market": "屏東市",
-        "price": 50.8,
-        "volume": 34.0
-      },
-      {
-        "market_no": "950",
-        "market": "花蓮市",
-        "price": 50.0,
-        "volume": 24.0
-      },
-      {
-        "market_no": "104",
         "market": "台北二",
-        "price": 56.5,
-        "volume": 20.0
+        "price": 55.8,
+        "volume": 1101.0
       },
       {
-        "market_no": "830",
-        "market": "鳳山區",
-        "price": 66.5,
-        "volume": 20.0
+        "market": "高雄市",
+        "price": 79.14,
+        "volume": 728.0
       },
       {
-        "market_no": "109",
-        "market": "台北一",
-        "price": 62.2,
-        "volume": 12.0
-      },
-      {
-        "market_no": "514",
-        "market": "溪湖鎮",
-        "price": 108.3,
-        "volume": 12.0
-      },
-      {
-        "market_no": "241",
         "market": "三重區",
-        "price": 56.2,
-        "volume": 10.0
+        "price": 57.7,
+        "volume": 579.0
       },
       {
-        "market_no": "400",
+        "market": "台北一",
+        "price": 74.4,
+        "volume": 516.0
+      },
+      {
         "market": "台中市",
-        "price": 61.1,
-        "volume": 2.0
+        "price": 58.3,
+        "volume": 324.0
+      },
+      {
+        "market": "桃農",
+        "price": 65.2,
+        "volume": 281.0
+      },
+      {
+        "market": "板橋區",
+        "price": 56.0,
+        "volume": 204.0
+      },
+      {
+        "market": "屏東市",
+        "price": 62.8,
+        "volume": 78.0
+      },
+      {
+        "market": "豐原區",
+        "price": 64.0,
+        "volume": 50.0
       }
     ]
   },
