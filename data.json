@@ -1,6 +1,6 @@
 {
   "site_name": "農業戰情儀表板（大蒜）",
-  "generated_at": "2026-05-08T11:23:23.983732+08:00",
+  "generated_at": "2026-05-08T11:40:28.755052+08:00",
   "scope": {
     "region": "雲林",
     "crop": "大蒜",
@@ -45,7 +45,7 @@
       "max_temp": 28.4,
       "min_temp": 21.4,
       "max_humidity": 96,
-      "max_rain_prob": 4,
+      "max_rain_prob": 10,
       "rain_sum_mm": 0.0,
       "risk_level": "中",
       "risk_reasons": [
@@ -127,7 +127,7 @@
         "time": "2026-05-08T10:00",
         "temp": 28.0,
         "humidity": 69,
-        "rain_prob": 3,
+        "rain_prob": 2,
         "rain_mm": 0.0
       },
       {
@@ -141,35 +141,35 @@
         "time": "2026-05-08T12:00",
         "temp": 27.4,
         "humidity": 76,
-        "rain_prob": 3,
+        "rain_prob": 6,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T13:00",
         "temp": 28.4,
         "humidity": 70,
-        "rain_prob": 1,
+        "rain_prob": 9,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T14:00",
         "temp": 28.4,
         "humidity": 67,
-        "rain_prob": 0,
+        "rain_prob": 10,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T15:00",
         "temp": 28.1,
         "humidity": 69,
-        "rain_prob": 1,
+        "rain_prob": 9,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T16:00",
         "temp": 27.4,
         "humidity": 74,
-        "rain_prob": 3,
+        "rain_prob": 6,
         "rain_mm": 0.0
       },
       {
@@ -183,35 +183,35 @@
         "time": "2026-05-08T18:00",
         "temp": 25.4,
         "humidity": 83,
-        "rain_prob": 3,
+        "rain_prob": 4,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T19:00",
         "temp": 24.2,
         "humidity": 83,
-        "rain_prob": 1,
+        "rain_prob": 4,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T20:00",
         "temp": 23.3,
         "humidity": 84,
-        "rain_prob": 0,
+        "rain_prob": 4,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T21:00",
         "temp": 22.5,
         "humidity": 87,
-        "rain_prob": 0,
+        "rain_prob": 3,
         "rain_mm": 0.0
       },
       {
         "time": "2026-05-08T22:00",
         "temp": 21.9,
         "humidity": 90,
-        "rain_prob": 0,
+        "rain_prob": 1,
         "rain_mm": 0.0
       },
       {
